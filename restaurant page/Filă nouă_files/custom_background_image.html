@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- saved from url=(0313)chrome-untrusted://new-tab-page/custom_background_image?url=https%3A%2F%2Flh5.googleusercontent.com%2Fproxy%2FTnQE7V_9T-JUfIf7glW1FLnxq1hI5UyZQloItJAvLoq2vtbD8LbqxCcA3tN2MyCyA-NIWEgIpok3BrKI-b5hNZC2EtE0HpdCGrKykTwFolCT3mSkvn8-bKI8Nj7ajI2185-HXH-t3vY7nSuQDDne1ffsBVRkdhsE9BP73G7IkJpQMwbQ%3Dw3840-h2160-p-k-no-nd-mv -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+      html,
+      body,
+      #image,
+      #gradient {
+        height: 100%;
+        width: 100%;
+      }
+
+      #image,
+      #gradient {
+        position: fixed;
+        top: 0;
+      }
+
+      body {
+        margin: 0;
+        opacity: 0;
+        transition: opacity 700ms;
+      }
+
+      body[shown] {
+        opacity: 1;
+      }
+
+      #image {
+        background-image: url(https://lh5.googleusercontent.com/proxy/TnQE7V_9T-JUfIf7glW1FLnxq1hI5UyZQloItJAvLoq2vtbD8LbqxCcA3tN2MyCyA-NIWEgIpok3BrKI-b5hNZC2EtE0HpdCGrKykTwFolCT3mSkvn8-bKI8Nj7ajI2185-HXH-t3vY7nSuQDDne1ffsBVRkdhsE9BP73G7IkJpQMwbQ=w3840-h2160-p-k-no-nd-mv);
+        background-position: center center;
+        background-repeat: no-repeat no-repeat;
+        background-size: cover;
+      }
+
+      #gradient {
+        background: radial-gradient(transparent 50%, black),
+            linear-gradient(transparent, black);
+        display: inherit;
+        opacity: .2;
+      }
+    </style>
+  </head>
+  <body shown="">
+    <script src="chrome-untrusted://new-tab-page/background_image.js"></script>
+    <!-- The img tag purely exists to capture the load event. -->
+    <img src="https://lh5.googleusercontent.com/proxy/TnQE7V_9T-JUfIf7glW1FLnxq1hI5UyZQloItJAvLoq2vtbD8LbqxCcA3tN2MyCyA-NIWEgIpok3BrKI-b5hNZC2EtE0HpdCGrKykTwFolCT3mSkvn8-bKI8Nj7ajI2185-HXH-t3vY7nSuQDDne1ffsBVRkdhsE9BP73G7IkJpQMwbQ=w3840-h2160-p-k-no-nd-mv" onload="onImageLoad()" hidden="">
+    <div id="image"></div>
+    <div id="gradient"></div>
+  
+
+</body></html>

@@ -1,0 +1,208 @@
+* {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body{
+    background-color: darkred;
+    overflow: scroll;
+}
+
+html{
+    overflow: scroll;
+}
+
+.nav-bar {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color: #f4f3ef;
+    margin-bottom: 10px;
+}
+
+.nav-bar a:hover {
+    color: darkred;
+}
+
+.nav-bar a {
+    font-size: 20px;
+    margin-left: 60px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+#logo {
+    margin-left: 30px;
+}
+
+#menu-up {
+    margin-top: 40px;
+}
+
+#menub {
+    color: darkred;
+}
+
+#menub:hover {
+    color: black;
+}
+
+.introduction {
+    background-color: #f4f3ef;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+#main-elements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#slogan {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: darkred;
+    cursor: default;
+    font-size: 25px;
+}
+
+#description {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+#order-button {
+    font-size: 15px;
+    font-weight: 800;
+    border-color: darkred;
+    border-style: solid;
+    margin-right: 500px;
+    text-align: center;
+}
+
+#order-button:hover {
+    color: #f4f3ef;
+    cursor: pointer;
+    background-color: darkred;
+}
+
+#burger-introduction-image {
+    margin-left: 90px;
+    margin-right: 40px;
+}
+
+.food {
+    background-color: #f4f3ef;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.classic-burger {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    
+}
+
+#classic-burger-photo {
+    margin-top: 20px;
+}
+
+#classic-burger-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.classic-burger img{
+    border-radius: 15px;
+}
+
+#ingredient1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+#ingredient2 {
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.food-part-right {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.veggie-burger {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left:  150px;
+}
+
+#veggie-burger-photo {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+#veggie-burger-photo img{
+    border-radius: 15px;
+}
+
+#veggie-burger-name {
+    margin-top: 20px;
+}
+
+.food-part-leftv {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.food-part-right {
+    margin-right: 60px;
+}
+
+#veggie-burger-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#ingredientv2 {
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#ingredientv1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.first-food-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.order-button {
+    border-color: darkred;
+    border-style: solid;
+    text-align: center;
+    font-weight: 800;
+}
+
+.order-button:hover {
+    color: #f4f3ef;
+    cursor: pointer;
+    background-color: darkred;
+}
